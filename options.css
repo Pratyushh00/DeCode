@@ -1,0 +1,46 @@
+body {
+    font-family: Inter, system-ui;
+    padding: 18px;
+    background: #071028;
+    color: #e6eef6;
+    margin: 0;
+    background: linear-gradient(180deg, #071029 0%, #03101a 100%);
+    min-width: 380px;
+}
+
+.box {
+    background: #071a2a;
+    padding: 18px;
+    border-radius: 10px
+}
+
+label {
+    display: block;
+    margin-bottom: 6px;
+    color: #9fb2c9
+}
+
+input,
+textarea {
+    min-width: 380px;
+    padding: 8px;
+    border-radius: 6px;
+    border: 1px solid rgba(255, 255, 255, 0.03);
+    background: rgba(255, 255, 255, 0.02);
+    color: #e6eef6
+}
+
+button {
+    margin-top: 8px;
+    padding: 8px 10px;
+    border-radius: 8px;
+    background: linear-gradient(90deg, #6b5bff, #4dd0e1);
+    border: none;
+    color: #001020;
+    cursor: pointer
+}
+
+p.small {
+    font-size: 12px;
+    color: #9fb2c9
+}

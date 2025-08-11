@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>DeCode — Explainer</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="popup.css">
+</head>
+
+<body>
+  <div class="card">
+    <header>
+      <img src="icons/icon48.png" alt="DeCode">
+      <div>
+        <h1>DeCode</h1>
+        <p>Select code on any page → get a clear explanation</p>
+      </div>
+    </header>
+
+    <main>
+      <div id="empty" class="empty">Select a code snippet on the page and click the floating <strong>Explain ▶</strong>
+        button — or press "Fetch selection".</div>
+      <textarea id="code" placeholder="Selected code will appear here"></textarea>
+      <div class="controls">
+        <button id="fetch">Fetch selection</button>
+        <button id="explain" class="primary">Explain</button>
+      </div>
+      <div id="status" class="status">Status: Idle</div>
+      <div id="result" class="result" hidden></div>
+    </main>
+
+    <footer>
+      <a href="options.html" id="optionsLink">Settings</a>
+      <span>DeCode • 1.0</span>
+    </footer>
+  </div>
+  <script src="popup.js"></script>
+</body>
+
+</html>
